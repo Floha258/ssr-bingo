@@ -63,6 +63,39 @@ const bingoLists = {normal:[
                 "Harp",
             ]
         },
+		    "name": "Complete Farore's Silent Realm",
+            "types": [
+                "Harp"
+		"Faron"
+            ] 
+        },
+		    "name": "Complete Nayru's Silent Realm",
+            "types": [
+                "Harp"
+		"Lanayru"
+            ] 
+        },
+		    "name": "Complete Din' Silent Realm",
+            "types": [
+                "Harp"
+		"Eldin"
+            ] 
+        },
+		    "name": "Complete Goddess' Silent Realm",
+            "types": [
+		"Harp"
+            ] 
+        },
+		    "name": "Complete a check out of logic",
+            "types": [
+                "Misc"
+            ] 
+        },
+            "name": "Finish the Sword Tutorial",
+            "types": [
+                "Skyloft"
+            ]
+        },
 		    "name": "28+ cuts at Bamboo Island",
             "types": [
                 "Minigames",
@@ -101,10 +134,12 @@ const bingoLists = {normal:[
                 "Crystals"
             ] 
         },
-		    "name": "Kill Girahim 1 with a dart",
+
+		    "name": "Kill Ghirahim 1 or 2 with a dart",
             "types": [
                 "Dungeons"
 		"Skyview"
+		"Fire Sanctuary
             ] 
         },
 		    "name": "Sacred Water",
@@ -162,6 +197,24 @@ const bingoLists = {normal:[
 		"Cubes"
             ] 
         },
+		    "name": "10 Goddess Cubes",
+            "types": [
+                "Goddess Sword"
+		"Cubes"
+            ] 
+        },
+		    "name": "15 Goddess Cubes",
+            "types": [
+                "Goddess Sword"
+		"Cubes"
+            ] 
+        },
+		    "name": "20 Goddess Cubes",
+            "types": [
+                "Goddess Sword"
+		"Cubes"
+            ] 
+        },
 		    "name": "Beat an unrequired Trial",
             "types": [
                 "Harp"
@@ -199,6 +252,26 @@ const bingoLists = {normal:[
 		    "name": "80 Gratitude Crystals",
             "types": [
                 "Crystals"
+		"Clawshots"
+		"Beetle"
+            ] 
+        },
+		    "name": "5 loose Graditude Crystals",
+            "types": [
+		"Crystals"
+            ] 
+        },
+		    "name": "10 loose Graditude Crystals",
+            "types": [
+                "Crystals"
+		"Sword"
+            ] 
+        },
+		    "name": "15 loose Graditude Crystals",
+            "types": [
+                "Crystals"
+		"Clawshots"
+		"Beetle"
             ] 
         },
 		    "name": "Stone of Trials",
@@ -221,6 +294,11 @@ const bingoLists = {normal:[
                 "Rupees"
             ] 
         },
+		    "name": "spend 2000 Rupees",
+            "types": [
+                "Rupees"
+            ] 
+        },
 		    "name": "5 Earth Temple Keypieces",
             "types": [
                 "Dungeons"
@@ -233,9 +311,10 @@ const bingoLists = {normal:[
 		"Lanayru"
             ] 
         },
-		    "name": "50 Gratitude Crystals",
+		    "name": "Both Deep Woods Bird Statues",
             "types": [
-                "Crystals"
+                "Faron"
+		"Statues"
             ] 
         },
 		    "name": "20 Bird Statues",
@@ -251,7 +330,24 @@ const bingoLists = {normal:[
                 "Statues"
 	        "Lanayru"
                 "Clawshots"
-		"Statues"
+            ] 
+        },
+		    "name": "5 Faron Bird statues",
+            "types": [
+                "Statues"
+		"Faron"
+            ] 
+        },
+		    "name": "8 Lanayru Bird Statues",
+            "types": [
+                "Statues"
+		"Lanayru"
+            ] 
+        },
+		    "name": "5 Faron Goddess Cubes",
+            "types": [
+                "Goddess Sword"
+		"Cubes"
             ] 
         },
 		    "name": "Turn a Windmill",
@@ -269,10 +365,106 @@ const bingoLists = {normal:[
                 "Bottles"
             ] 
         },
+		    "name": "6 pouch slots",
+            "types": [
+                "Pouch"
+            ] 
+        },
+		    "name": "7 Pouch slots",
+            "types": [
+                "Pouch"
+            ] 
+        },
 		    "name": "Upgrade 1 B-Wheel item",
             "types": [
                 "Misc"
             ] 
+        },
+	    	     "name": "Upgrade 3 Items",
+            "types": [
+                "Upgrades"
+            ]
+        },
+		    "name": "Upgrade 1 Shield",
+            "types": [
+                "Upgrades"
+		"Pouch"
+            ] 
+        },
+		    "name": "3 medals",
+            "types": [
+                "Medals"
+            ]
+        },
+	    	     "name": "5 medals",
+            "types": [
+                "Medals"
+            ]
+        },
+	    	     "name": "7 medals",
+            "types": [
+                "Medals"
+            ]
+        },
+	    	     "name": "All Wooden Shields",
+            "types": [
+                "Shields"
+		"bugs"		    
+            ]
+        },
+	    	     "name": "All Iron Shields",
+            "types": [
+                "Shields"
+		"bugs"
+            ]
+        },
+		    "name": "3 Unique Shields",
+            "types": [
+                "Shields"
+            ] 
+        },
+		    "name": "5 Unique Shields",
+            "types": [
+                "Shields"
+            ] 
+        },
+	    	     "name": "Catch 50 of any bug",
+            "types": [
+                "Bug Net"
+		"Faron"
+		"Eldin"
+		"Lanayru"   
+            ]
+        },
+	    	     "name": "10 Unique bugs",
+            "types": [
+                "Bug Net"
+            ]
+        },
+	    	     "name": "10 Unique Treasures",
+            "types": [
+                "Treasures"
+            ]
+        },
+	    	     "name": "Clear bugheaven in under 90 seconds",
+            "types": [
+                "Minigames"
+		"Bug Net"
+            ]
+        },
+
+	    	     "name": "Play the Harp Minigame",
+            "types": [
+                "Minigames"
+            ]
+        },
+	    	     "name": "2 Scrapper Quests",
+            "types": [
+                "Quests"
+		"Faron"
+		"Eldin"
+		"Lanayru"
+            ]
         },
      ]
   };
