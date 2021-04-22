@@ -684,6 +684,7 @@ for (let i = 0; i < 25; i++) {
 		goal = bingoLists.normal[0][Math.floor(Math.random() * bingoLists.normal[0].length)].name;
 		if (!actualGoals.includes(goal)){
 			repeat = false
+			actualGoals.push(goal);
 		}
 	}
 	if (i == 0) {
@@ -695,4 +696,5 @@ for (let i = 0; i < 25; i++) {
 	}
 }
 console.log(json);
+console.log('\nSeed: ' + Math.floor(Math.random() * 9999999999));
 	
