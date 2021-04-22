@@ -1,4 +1,5 @@
-export const bingoLists = {
+//import from ssr-goals.js
+const bingoLists = {
     normal: [
         [
             {
@@ -673,3 +674,25 @@ export const bingoLists = {
         ]
     ]
 };
+
+let json = "";
+let actualGoals = [];
+for (let i = 0; i < 25; i++) {
+	let repeat = true;
+	let goal;
+	while (repeat) {
+		goal = bingoLists.normal[0][Math.floor(Math.random() * bingoLists.normal[0].length)].name;
+		if (!actualGoals.includes(goal)){
+			repeat = false
+		}
+	}
+	if (i == 0) {
+		json = '[{"name": "' + goal + '"},';
+	} else if (i == 24) {
+		json = json + '{"name": "' + goal + '"}]'
+	} else {
+		json = json + '{"name": "' + goal + '"},'
+	}
+}
+console.log(json);
+	
