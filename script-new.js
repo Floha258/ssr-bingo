@@ -107,6 +107,7 @@ var bingoList = [
     "Any Projectile",
     "Defeat a Lizalfos",
     "Defeat a blue Bokoblin",
+	"SingleItem|Find the Tumbleweed"
 ];
 
 // https://gist.github.com/blixt/f17b47c62508be59987b
